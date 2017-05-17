@@ -1,0 +1,7 @@
+Compile with Babel
+------------------
+.\node_modules\.bin\babel index.js -o compiled.js
+
+Bundle with Webpack
+-------------------
+.\node_modules\.bin\webpack compiled.js bundled.js
